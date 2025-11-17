@@ -1,0 +1,399 @@
+{
+  "gameTitle": "Barrage",
+  "home": {
+    "title": "Assistente Solo de Barrage",
+    "play1": "Jogue <a href='https://boardgamegeek.com/boardgame/251247/barrage' target='_blank' rel='noopener'><b>Barrage</b></a> contra o Automa, o oponente artificial.",
+    "play2": "Este aplicativo substitui o baralho de cartas do Automa e conduz você pelas regras do jogo e do Automa. Ele suporta todos os níveis de dificuldade, as habilidades especiais das companhias e a maioria dos diretores executivos. É possível jogar contra até três Automas.",
+    "feedback": "Discussão e Feedback:"
+  },
+  "setup": {
+    "title": "Preparar Partida",
+    "expansions": {
+      "title": "Expansões",
+      "leeghwater-project": "The Leeghwater Project",
+      "far-companies": "Far Companies",
+      "five-player": "Expansão para 5 Jogadores",
+      "executive-officer-promo": "Diretores Executivos Promocionais (Subconjunto)"
+    },
+    "players": {
+      "title": "Jogador",
+      "playerCount": "Jogadores Humanos",
+      "playerCountItem": "{count} Jogador | {count} Jogadores",
+      "playerColor": "Cor do Jogador | Cor do Jogador {index}",
+      "botCount": "Automa",
+      "botCountItem": "{count} Automa | {count} Automas",
+      "botColor": "Cor do Automa | Cor do Automa {index}"
+    },
+    "difficultyLevel": {
+      "title": "Nível de Dificuldade",
+      "easy": "Fácil",
+      "hard": "Difícil"
+    }
+  },
+  "setupBot": {
+    "title": "Preparar Automa",
+    "corporation": {
+      "title": "Companhia"
+    },
+    "executiveOfficer": {
+      "title": "Diretor Executivo"
+    },
+    "setup": {
+      "title": "Configuração",
+      "playerPieces": "Monte o Automa com o tabuleiro de companhia escolhido e todos os componentes de jogo.",
+      "noExecutiveOfficer": "Não atribua diretores executivos ao Automa.",
+      "noStartingContract": "Não atribua contratos iniciais ao Automa.",
+      "victoryPoints": "O Automa começa a partida com 16 Pontos de Vitória.",
+      "playerOrder": "Ordem inicial dos jogadores:"
+    },
+    "validCorporation": "Selecione uma companhia para o Automa.",
+    "validCorporationExecutiveOfficer": "Selecione uma companhia e um diretor executivo para o Automa."
+  },
+  "turnPlayer": {
+    "title": "Jogador | Jogador {player}",
+    "takeTurn": "Faça seu turno.",
+    "pass": {
+      "title": "Passar",
+      "confirm": "Passar e sair da fase de ações?"
+    }
+  },
+  "turnBot": {
+    "title": "Automa | Automa {bot}",
+    "done": "Engenheiro posicionado | Engenheiros posicionados",
+    "notPossible": "Não é possível",
+    "criteria": "Critérios",
+    "structurePlacement": {
+      "damElevation": "Represa/Elevação",
+      "conduit": "Conduíte",
+      "powerhouse": "Usina de Energia"
+    },
+    "placeEngineers": {
+      "title": "Posicionar Engenheiros",
+      "button": "Posicionar Engenheiros: {count}",
+      "intro": "Por padrão, usa-se o número de engenheiros indicado para a ação. Porém, nos modos Alta Voltagem ou Superpotente o número real de Engenheiros a usar pode ser diferente por causa das fichas de Tecnologia Avançada ou dos poderes especiais dos diretores executivos.",
+      "workerUsed": "{count} Engenheiro | {count} Engenheiros",
+      "nextAction": "Executar outra ação"
+    }
+  },
+  "roundStart": {
+    "title": "Rodada {round}",
+    "income": {
+      "title": "Renda",
+      "activeIncome": "Todos os jogadores recebem a renda ativa nos seus tabuleiros de Companhia."
+    },
+    "headstreams": {
+      "title": "Nascentes",
+      "placeWaterDrops": "Coloque Gotas d'Água nas fichas de Nascente de acordo com o número indicado na ficha para a rodada atual."
+    }
+  },
+  "roundEnd": {
+    "title": "Fim da Rodada {round}",
+    "waterFlow": {
+      "title": "Fluxo de Água",
+      "flowDown": "Todas as Gotas d'Água nas fichas de Nascente descem o curso do rio."
+    },
+    "scoring": {
+      "title": "Pontuação",
+      "firstSecondPlayer": "O primeiro jogador na Trilha de Energia ganha 6 Pontos de Vitória; o segundo ganha 2 Pontos de Vitória",
+      "gainCredits": "Ganhe Créditos (Pontos de Vitória para o Automa) conforme a posição na Trilha de Energia.",
+      "bonusTile": "Ganhe Pontos de Vitória graças à ficha de Bônus da rodada atual, descarte a ficha de Bônus."
+    },
+    "determinePlayerOrder": {
+      "title": "Atualizar Ordem de Turno",
+      "currentItems": "Ordem de Turno Atual",
+      "newItems": "Nova Ordem de Turno",
+      "newItemsSelect": "Determine a nova ordem de turno."
+    },
+    "cleanUp": {
+      "title": "Organizar",
+      "resetEnergyMarkers": "Reposicione os marcadores de Energia.",
+      "takeBackEngineers": "Recupere todos os engenheiros.",
+      "discardTechnologyTiles": "Descarte e reponha as fichas de Tecnologia Avançada.",
+      "discardExternalWorkTiles": "Descarte e reponha as fichas de Obra Externa."
+    }
+  },
+  "gameEnd": {
+    "title": "Fim de Jogo",
+    "objectiveTile": "Ganhe Pontos de Vitória conforme a <b>ficha de Objetivo</b>.",
+    "resourcesLeft": "Ganhe Pontos de Vitória pelos <b>recursos</b> restantes disponíveis na reserva.",
+    "resourcesLeftExplanation": "Some os recursos (Escavadoras, Betoneiras, Créditos). Ganhe 1 Ponto de Vitória a cada 5 itens de qualquer tipo. Recursos que ainda estejam na Roda de Construção não contam.",
+    "damWater": "Ganhe 1 Ponto de Vitória para cada <b>Gota d'Água retida pelas suas Represas</b>.",
+    "privateBuildingTiles": "Ganhe Pontos de Vitória pelas fichas de <b>Construção Privada</b> ativadas.",
+    "winner": "O jogador com mais Pontos de Vitória vence.",
+    "tiebreaker": "Em caso de empate, vence o jogador que produziu mais Unidades de Energia na última rodada."
+  },
+  "sideBar": {
+    "round": "Rodada {round}",
+    "turn": "Turno {turn}",
+    "workers": "{count} Engenheiros",
+    "pass": "(passou)"
+  },
+  "difficultyLevel": {
+    "1": "Fácil - \"Baixa Voltagem\"",
+    "2": "Médio",
+    "3": "Difícil - \"Alta Voltagem\"",
+    "4": "Muito Difícil - \"Superpotente\""
+  },
+  "corporation": {
+    "usa": "EUA",
+    "germany": "Alemanha",
+    "italy": "Itália",
+    "france": "França",
+    "netherlands": "Holanda"
+  },
+  "executiveOfficer": {
+    "wilhelm-adler": "Wilhelm Adler",
+    "graziano-del-monte": "Graziano del Monte",
+    "viktor-fiesler": "Viktor Fiesler",
+    "jill-mcdowell": "Jill McDowell",
+    "solomon-p-jordan": "Solomon P. Jordan",
+    "anton-krylov": "Anton Krylov",
+    "mahiri-sekibo": "Mahiri Sekibo",
+    "simone-luciani": "Simone Luciani",
+    "tommaso-battista": "Tommaso Battista",
+    "leslie-spencer": "Leslie Spencer",
+    "margot-fouche": "Margot Fouché",
+    "elon-audia": "Elon Audia",
+    "gennaro-grasso": "Gennaro Grasso",
+    "wu-fang": "Wu Fang",
+    "dr-octavius": "Dr. Octavius",
+    "amir-zahir": "Amir Zahir",
+    "franz-de-lasse": "Franz de Lasse"
+  },
+  "actionItem": {
+    "production": "Produção",
+    "water-management": "Gestão de Água",
+    "contract-office": "Departamento de Contratos",
+    "construction": "Construção",
+    "workshop": "Oficina",
+    "machinery-shop": "Loja de Maquinário",
+    "patent-office": "Escritório de Patentes",
+    "external-work": "Obra Externa",
+    "bank": "Banco"
+  },
+  "constructionType": {
+    "dam": "Base de Represa",
+    "elevation": "Elevação",
+    "conduit": "Conduíte",
+    "powerhouse": "Usina de Energia"
+  },
+  "rules": {
+    "general": {
+      "title": "Regras do Automa",
+      "intro": "Algumas das regras básicas do jogo são modificadas para os jogadores Automa:",
+      "noCredits": "<b>O Automa não usa Créditos.</b> Sempre que um Automa precisar pagar ou ganhar Créditos, ele paga ou ganha o mesmo número de Pontos de Vitória <i>(ex.: se um Automa construir uma estrutura em um espaço com ícone de borda vermelha, ele pagará 3 PV)</i>. Os Pontos de Vitória do Automa podem ficar abaixo de zero.",
+      "noCompanyAbility": "<b>O Automa não usa a habilidade especial da Companhia ativada</b> pela construção da 3ª Usina de Energia. Porém, o Automa utilizará os bônus de produção ativados ao construir a 2ª e a 4ª Usina de Energia.",
+      "noExecutiveOfficers": "<b>O Automa não usa Diretores Executivos.</b>",
+      "doesNotTakeContractTiles": "<b>O Automa não pega fichas de Contrato.</b> Os jogadores Automa cumprem diretamente os Contratos virados para cima disponíveis no Departamento de Contratos.",
+      "advancedTechnologyTiles": "<b>O Automa pode comprar fichas de Tecnologia Avançada</b>, mas usará apenas o efeito básico <i>(ou seja, a construção de uma estrutura)</i> sem usar o efeito especial correspondente. Quando o Automa ganhar uma ficha, e houver várias fichas elegíveis disponíveis, o Automa pegará a ficha de nível mais alto.",
+      "machineryTypeWild": "Se o Automa receber um <b>Maquinário coringa</b>, ele assume o tipo de Maquinário do qual ele tiver menos disponível <i>(ou seja, fora da Roda de Construção)</i>. Em caso de empate, o Automa pega 1 Escavadora.",
+      "objectiveTileScoring": "Se um jogador Automa tiver o maior número de elementos conforme a condição da <b>ficha de Objetivo</b>, ele marca 20 PV; se ficar em segundo, marca 15 PV; se ficar em terceiro, marca 10 PV.",
+      "building": "O Automa nunca usa a <b>ação especial de Construção Privada</b>. Porém, quando uma Construção Privada tiver sido ativada por um Automa, o espaço de ação correspondente à esquerda <i>(o mais barato)</i> ficará indisponível para qualquer outro jogador pelo resto da partida.",
+      "engineerPlacement": {
+        "title": "Posicionamento de Engenheiros",
+        "constructionSpaces": "<b>Espaços de ação de construção do Automa</b> - Diferente dos jogadores humanos, quando um jogador Automa realiza uma ação de construção, ele colocará o número de Engenheiros indicado no Aplicativo no tabuleiro de Companhia, independentemente da disponibilidade de espaços de ação. Não há limite para o número de estruturas que o Automa pode construir em uma única rodada.",
+        "managementSpaces": "<b>Espaços de ação de Gestão do Automa</b> - Diferente dos jogadores humanos, quando os jogadores Automa realizam uma ação de Gestão, o Automa colocará - na seção correspondente - o número de Engenheiros indicado no Aplicativo, independentemente da disponibilidade de espaços de ação. Os Engenheiros indicados no Aplicativo devem ser colocados sempre no primeiro espaço de ação livre <i>(ou seja, sem Engenheiros)</i> da seção correspondente do Tabuleiro de Gestão, do Escritório de Patentes ou do Tabuleiro de Ações Extras, de cima para baixo na coluna da esquerda e depois de cima para baixo na coluna da direita, ignorando o número de Engenheiros exigido pelo espaço de ação ocupado. Observe que o espaço de ação ocupado não define a ação efetivamente executada pelo Automa - que está indicada pelo ícone na ficha de Automa. <b>Se não houver espaços de ação disponíveis na seção relevante, e o Automa puder realizar a ação indicada na ficha de Automa, apenas coloque os Engenheiros exigidos ao lado da seção correspondente.</b>",
+        "fivePlayerMap": "<b>Expansão para 5 Jogadores:</b> Em uma partida para 5 jogadores, os jogadores Automa colocarão Engenheiros nos espaços de ação do Tabuleiro de Ações Extras, com as seguintes novas regras.",
+        "fivePlayerWorkhopEtc": "O Automa colocará Engenheiros <b>à esquerda</b> após uma ação de Oficina/Loja de Maquinário/Gestão de Água/Departamento de Contratos, se todos os espaços de ação à esquerda da área correspondente do Tabuleiro de Gestão principal já estiverem ocupados. Ele colocará Engenheiros <b>à direita</b> após uma ação de Oficina/Loja de Maquinário/Gestão de Água/Departamento de Contratos, se todos os espaços de ação à direita da área correspondente do Tabuleiro de Gestão principal já estiverem ocupados.",
+        "fivePlayerProduction": "O Automa colocará Engenheiros <b>à esquerda</b> após uma ação de produção, se os 3 primeiros espaços de ação superiores à esquerda da Estação de Turbinas já estiverem ocupados. Ele colocará Engenheiros <b>à direita</b> após uma ação de produção, se os 3 primeiros espaços de ação superiores à direita da Estação de Turbinas já estiverem ocupados."
+      }
+    },
+    "difficultyLevel": {
+      "easy": {
+        "noIncome": "<b>Baixa Voltagem:</b> Os jogadores Automa nunca recebem renda do próprio Tabuleiro de Companhia.",
+        "noProductionBonus": "<b>Baixa Voltagem:</b> Os jogadores Automa não usam bônus de produção (ativados ao construir Usinas de Energia)."
+      },
+      "hard": {
+        "advancedTechnology": {
+          "building-level1": {
+            "title": "Edifício Nível 1",
+            "description": "Em vez do efeito especial indicado (ou seja, a ativação da Construção Privada conectada), o Automa pontua imediatamente os Pontos de Vitória daquela Construção Privada."
+          },
+          "building-level2": {
+            "title": "Edifício Nível 2",
+            "description": "O Automa usa apenas o tipo de Maquinário de que possui menos na reserva. Em caso de empate, o Automa usará apenas Escavadoras."
+          },
+          "conduit-level2": {
+            "title": "Conduíte Nível 2",
+            "description": "Em caso de empate entre posições elegíveis, o Automa sempre escolhe um Conduíte de valor 3 ou mais."
+          },
+          "joker-level1": {
+            "title": "Qualquer um da sua escolha Nível 1",
+            "description": "Se estiver construindo uma Base, depois de verificar todos os critérios do Procedimento de Posicionamento de Estruturas, o Automa escolherá o espaço de construção com contorno vermelho."
+          },
+          "joker-level2": {
+            "title": "Qualquer um da sua escolha Nível 2",
+            "description": "O Automa usará os Maquinários normalmente exigidos para a estrutura que está construindo antes de usar o outro tipo."
+          },
+          "powerhouse-level2": {
+            "title": "Usina de Energia Nível 2",
+            "description": "O Automa ativará a melhor produção disponível."
+          }
+        },
+        "advancedTechnologyTiles": "<b>Alta Voltagem:</b> Os jogadores Automa podem usar o efeito especial das fichas de Tecnologia Avançada utilizadas. Se o Automa tiver mais fichas relacionadas à mesma estrutura (incluindo fichas coringa), ele sempre usa a ficha de nível mais alto. Em caso de empate, o Automa prefere uma ficha de estrutura específica antes de usar uma ficha coringa.",
+        "companyAbilities": "<b>Alta Voltagem:</b> Os jogadores Automa podem usar a habilidade especial do seu Tabuleiro de Companhia, ativada com a construção da 3ª Usina de Energia.",
+        "corporation": {
+          "usa": "<b>Alta Voltagem/EUA & 3ª Usina de Energia construída:</b> Ao realizar uma ação de Gestão de Água, em caso de empate entre Nascentes elegíveis, o Automa escolherá aquela que gerar mais avanços na Trilha de Energia.",
+          "germany": "<b>Alta Voltagem/Alemanha & 3ª Usina de Energia construída:</b> A segunda produção, se disponível, é sempre a mais produtiva entre as elegíveis.",
+          "france": "<b>Alta Voltagem/França & 3ª Usina de Energia construída:</b> Aplique o desconto tanto ao verificar as condições da ação de produção QUANTO ao cumprir o Contrato.",
+          "netherlands": "<b>Alta Voltagem/Holanda & 3ª Usina de Energia construída:</b> A Gota d'Água é colocada na Represa conectada ao sistema mais produtivo <i>(exceto o que acabou de ser usado)</i>. Se não houver uma Represa elegível que faça parte de um sistema produtivo completo ou houver mais de uma, use os critérios de Represa para determinar qual Represa será preenchida."
+        }
+      },
+      "veryHard": {
+        "executiveOfficers": "<b>Superpotente:</b> Os jogadores Automa recebem uma ficha de Diretor Executivo durante a preparação e usam a habilidade especial correspondente durante o jogo.",
+        "executiveOfficer": {
+          "wilhelm-adler": "<b>Superpotente/Wilhelm Adler:</b> Ao verificar os critérios de posicionamento de Represa, <b>Represas nas Montanhas</b> (e secundariamente nas Colinas) <b>sempre têm preferência</b> entre as elegíveis.",
+          "graziano-del-monte": "<b>Superpotente/Graziano del Monte:</b> Ao verificar a ação de construção de estrutura, se o Automa puder construir uma Elevação (ex.: houver uma Represa que seja possível elevar com os Maquinários e fichas de Tecnologia disponíveis), <b>o Automa sempre realizará uma ação de construção de Elevação, ignorando as estruturas sugeridas pelas fichas de Automa.</b>",
+          "viktor-fiesler": "<b>Superpotente/Viktor Fiesler:</b> Quando o Automa realizar uma ação de produção usando um Conduíte de valor 1 ou 2, <b>o Automa produzirá usando apenas 1 Gota d'Água</b>.",
+          "jill-mcdowell": {
+            "constructConduit": "<b>Superpotente/Jill McDowell:</b> Ao construir um Conduíte, em caso de empate, o Automa prefere usar Betoneiras em vez de Escavadoras.",
+            "machineryShop": "<b>Superpotente/Jill McDowell:</b> Ao pegar Maquinários à escolha, o Automa <b>sempre prefere pegar Betoneiras</b>."
+          },
+          "solomon-p-jordan": "<b>Superpotente/Solomon P. Jordan:</b> <b>O Automa usará apenas 3 Pontos de Vitória em vez de um Maquinário</b>, nunca mais (usar Maquinários - se disponíveis - sempre será preferido a gastar Pontos de Vitória). Lembre-se desta habilidade ao verificar a condição de disponibilidade de Maquinários para realizar uma ação de construção.",
+          "anton-krylov": "<b>Superpotente/Anton Krylov:</b> <b>A ficha de Tecnologia Especial sempre será usada após as fichas Avançada e Básica.</b> Quando usada, a ficha sempre copiará a ficha de Tecnologia de nível mais alto (ou seja, nesta ordem: 3, 2, 1, básica). Em caso de empate, o Automa prefere uma ficha de estrutura específica antes de usar uma ficha coringa.",
+          "mahiri-sekibo": "<b>Superpotente/Mahiri Sekibo:</b> O Automa não usa esta habilidade especial. Por outro lado, <b>os jogadores humanos devem realizar sua primeira ação de cada rodada como se fossem um Automa.</b> Use as fichas de Automa para isso; o Aplicativo não dá suporte. Revele uma nova ficha de Automa e siga-a para “decidir” qual ação executar.",
+          "simone-luciani": "<b>Superpotente/Simone Luciani:</b> Quando uma produção é realizada, <b>o Automa cumpre o máximo de Contratos possível</b>, em vez de escolher o de maior valor entre os disponíveis. Em caso de empate, são escolhidos os Contratos de maior valor (ex.: se os Contratos de valor 2, 3, 6, 6, 9, 10 estiverem disponíveis, com uma produção de 9 Unidades de Energia os Contratos de valor 3 e 6 serão cumpridos. Como sempre, em caso de empate o Contrato da direita é escolhido. Na mesma condição, com uma produção de 12 Unidades de Energia, os Contratos de valor 2, 3 e 6 da direita serão cumpridos). Se um Contrato Nacional puder ser cumprido, ele sempre será escolhido (eventualmente em combinação com um ou mais Contratos Privados).",
+          "tommaso-battista": "<b>Superpotente/Tommaso Battista:</b> <b>Se uma ação listada na ficha de Automa que encerraria o turno</b> (ou seja, não as ações no quadro tracejado) <b>requer apenas 1 Engenheiro, o Automa usará o “Arquiteto”</b> (se disponível) e, após a resolução da ação, imediatamente inicia um segundo turno, usando uma nova ficha de Automa.",
+          "leslie-spencer": "<b>Superpotente/Leslie Spencer:</b> Se a ficha de Tecnologia Especial estiver disponível ao verificar a possibilidade de realizar uma ação de construção, verifique a possibilidade de realizar uma ação de Obras Externas usando a ficha de Tecnologia Especial como uma ação de construção que exige 1 Engenheiro: se for possível, <b>execute a ação de Obras Externas “construção” ({externalWorkTiles}) e ignore a estrutura indicada na ficha de Automa</b>. Caso contrário, resolva a ação de construção normalmente.",
+          "margot-fouche": "<b>Superpotente/Margot Fouché:</b> O Automa não usa esta habilidade especial. No entanto, ao verificar a possibilidade de realizar uma ação de construção, se for possível construir um Edifício (ex.: houver uma Construção Privada que possa ser construída com os Maquinários e fichas de Tecnologia disponíveis), <b>o Automa sempre construirá um Edifício ({buildingSearchDirection}), ignorando a estrutura indicada na ficha de Automa</b>. A ação de Construção de Edifício exige 1 Engenheiro.",
+          "elon-audia": "<b>Superpotente/Elon Audia:</b> Ao construir ou realizar uma ação de Obras Externas, o Automa sempre preferirá usar Escavadoras e Betoneiras antes de usar seus Escamixers.",
+          "gennaro-grasso": "<b>Superpotente/Gennaro Grasso:</b> O Automa não usa o espaço extra de Construção de Gennaro Grasso. A primeira construção de cada rodada sempre custa 1 engenheiro a menos (coloque o Engenheiro usado no espaço extra de Construção do DE como lembrete: no caso da construção de uma Construção Privada, basta colocar 1 Crédito no espaço de Construção como lembrete). ",
+          "wu-fang": {
+            "production": "<b>Superpotente/Wu Fang:</b> Antes de verificar qual ação (ou ações) executar da ficha de Automa, o jogador Automa deve verificar se controla um número de Gotas d'Água igual (ou maior) à energia necessária para cumprir um contrato indicado na ação de produção. Se isso for verdade, como sua ação de turno, ele colocará um de seus Engenheiros em seu espaço de ação especial de DE e produzirá uma quantidade de Unidades de Energia igual às Gotas d'Água que controla; então, cumprirá o melhor contrato possível (em caso de empate, o mais à direita).",
+            "construction": "<b>Superpotente/Wu Fang:</b> Antes de verificar se e qual estrutura construir, se o Automa tiver a ficha de tecnologia correta e maquinários exigidos, ele preferirá construir uma Base de Represa (ou, como segunda escolha, uma Elevação) em vez da estrutura indicada na ficha de Automa."
+          },
+          "dr-octavius": "<b>Superpotente/Dr. Octavius:</b> Ao verificar a quantidade de Energia que pode ser produzida, o Automa considerará a melhor produção possível levando em conta todas as fontes de Gotas d'Água. Além disso, ao selecionar onde colocar uma Base de Represa, ele preferirá, entre as posições elegíveis, uma conectada (por um Conduíte construído ou não) a uma de suas Usinas de Energia.",
+          "amir-zahir": "<b>Superpotente/Amir Zahir:</b> Sempre que o Automa coloca Gotas d'Água nas Nascentes, elas sempre fluem imediatamente. Quando o Automa tiver que colocar Gotas d'Água que deveriam fluir imediatamente nas Nascentes, o Automa tentará colocá-las em suas Represas. A primeira escolha será uma Represa que faça parte de um sistema completo de Represa-Conduíte-Usina de Energia (em caso de múltiplas opções, o sistema com o Conduíte de maior valor). A segunda escolha será qualquer Represa do Automa. Em caso de empate entre várias opções, o Automa segue os critérios de localização de Represa.",
+          "franz-de-lasse": "<b>Superpotente/Franz de Lasse:</b> O Automa sempre escolhe cumprir os Contratos disponíveis com menor valor (em caso de empate, será o Contrato à direita)."
+        }
+      }
+    },
+    "actionItem": {
+      "production": {
+        "intro": "O Automa produzirá Energia usando seu melhor sistema de produção disponível, somente se todas as condições a seguir forem satisfeitas:",
+        "productionSystemReady": "<b>Sistema de Produção Pronto</b> - Existe pelo menos uma conexão de estruturas <i>(ou seja, Represa contendo pelo menos 1 Gota d'Água + Conduíte + Usina de Energia)</i> que permite ao Automa produzir.",
+        "energyTrack": "<b>Trilha de Energia</b> - O Automa ainda não está na seção numerada da rodada atual que permite obter a Recompensa Completa da ficha de Bônus OU o Automa não é atualmente o primeiro jogador na Trilha de Energia <i>(basta uma das duas condições)</i>.",
+        "contractRequirement": "<b>Requisito de Contrato</b> - A energia potencial máxima que pode ser produzida <i>(incluindo o bônus/malus de produção indicado)</i> é igual ou maior que o requisito de energia de pelo menos um Contrato disponível do tipo indicado.",
+        "produceEnergy": "<b>O Automa produzirá Energia usando o melhor sistema de produção disponível</b> <i>(ou seja, o que produzir a maior quantidade de Energia)</i> <b>e aplicará o bônus/malus indicado </b> <i>(e eventualmente o bônus ativado no tabuleiro de Companhia)</i>. Mova as Gotas d'Água e atualize a Trilha de Energia normalmente.",
+        "fulfillContract": "Em seguida, <b>o Automa cumprirá imediatamente o Contrato de maior valor disponível</b> no Departamento de Contratos, não apenas entre aqueles checados como condição <i>(em caso de empate, o contrato no espaço da direita)</i> e receberá a recompensa correspondente. O Contrato cumprido é removido e substituído por um novo. O Automa pode cumprir Contratos Nacionais como um jogador humano <i>(em caso de empate, o mais à direita)</i>.",
+        "multipleOptions": "Se houver várias opções para cumprir o contrato com o mesmo maior valor, o Automa usa água primeiro de uma Represa neutra. Se ainda houver várias opções, verifique os critérios de localização de “Conduíte”."
+      },
+      "water-management": {
+        "intro": "O Automa colocará a quantidade indicada de Gotas d'Água em uma ou mais fichas de Nascente, seguindo as regras padrão.",
+        "damReachable": "O Automa executará esta ação apenas se pelo menos uma das Gotas d'Água colocadas puder alcançar uma de suas próprias Represas <i>(imediatamente ou na próxima Fase de Água, considerando o estado atual do mapa)</i>.",
+        "damCapacity": "A Represa <i>(ou Represas)</i> deve ter capacidade suficiente para armazenar a(s) Gota(s) d'Água; qualquer Gota excedente não será colocada.",
+        "engineerPlacement": "Se ao menos uma Gota d'Água tiver sido colocada com esta ação, o Automa deve colocar um Engenheiro nos espaços de Ação de Gestão de Água.",
+        "tiebreaker": "O Automa sempre tentará colocar a maior quantidade de Gotas d'Água. Se houver duas ou mais Nascentes elegíveis, use o critério de desempate indicado em relação às bacias, conforme mostrado abaixo. Se a primeira letra se referir a uma das Nascentes possíveis, coloque as Gotas d'Água nela, e assim por diante.",
+        "fivePlayerMap": "<b>Mapa para 5 Jogadores:</b> Se você precisar colocar Gotas d'Água em uma Nascente e houver empate entre duas ou mais Nascentes, use a seguinte regra: Observe a primeira letra na ficha de Critérios (na coluna mais à direita): se não for uma Nascente empatada, escolha a primeira Nascente empatada à direita da indicada (depois do X volte para A)."
+      },
+      "contract-office": {
+        "intro": "O Automa remove os Contratos indicados do Departamento de Contratos. Em seguida, move seu marcador de Energia 2 casas na Trilha de Energia.",
+        "engineerPlacement": "Coloque o Engenheiro no Departamento de Contratos.",
+        "newContractTiles": "Em seguida, coloque 2 novas fichas de Contrato nos espaços vazios pegando-as do monte correspondente."
+      },
+      "construction": {
+        "intro": "O Automa construirá a Estrutura indicada se todas as condições a seguir forem satisfeitas:",
+        "structureAvailable": "<b>Estrutura Disponível</b> - O Automa tem a peça de estrutura indicada disponível em seu tabuleiro de Companhia.",
+        "technologyTileAvailable": "<b>Ficha de Tecnologia Disponível</b> - O Automa tem pelo menos uma ficha de Tecnologia <i>(básica ou avançada)</i> que permita construir a Estrutura indicada.",
+        "machineriesAvailable": "<b>Maquinários Disponíveis</b> - O Automa tem o número mínimo exigido de Maquinários <i>(Escavadoras ou Betoneiras)</i> para a construção da estrutura representada. Algumas fichas também indicam um tipo específico de estrutura <i>(ex.: uma Base a ser construída na região das Montanhas - 5 Escavadoras necessárias - ou um Conduíte de valor 3 ou mais - pelo menos 6 Escavadoras necessárias, e assim por diante)</i>.",
+        "buildingSpaceAvailable": "<b>Espaço de Construção Disponível</b> - Há pelo menos um espaço de construção disponível no Mapa para a Estrutura indicada.",
+        "buildStructure": "Se todas as condições acima forem verificadas, o Automa construirá a estrutura indicada, colocando Engenheiros no tabuleiro de Companhia e usando sua Roda de Construção normalmente <i>(lembre-se de que o Automa não segue as regras padrão dos espaços de ação de construção)</i>.",
+        "oneSpace": "Se houver apenas um possível espaço no Mapa para a colocação da estrutura, o Automa colocará a estrutura nesse espaço.",
+        "multipleSpaces": "Se houver mais espaços possíveis, siga as regras descritas no procedimento de “Posicionamento de Estruturas” <i>(clique nos critérios indicados)</i>.",
+        "income": "Como um jogador humano, se uma renda for revelada no tabuleiro de Companhia do Automa, ele recebe imediatamente essa renda.",
+        "building": {
+          "up": "<b>Construção:</b> O Automa construirá o Edifício ligado à primeira <i>(de baixo para cima)</i> Construção Privada disponível para a qual ele tenha os Maquinários necessários.",
+          "down": "<b>Construção:</b> O Automa construirá o Edifício ligado à primeira <i>(de cima para baixo)</i> Construção Privada disponível para a qual ele tenha os Maquinários necessários."
+        }
+      },
+      "workshop": {
+        "intro": "O Automa girará sua Roda de Construção pelo número indicado de segmentos, somente se ela não estiver completamente vazia.",
+        "technologyTiles": "Se a Roda de Construção do Automa tiver Maquinários e/ou fichas de Tecnologia dentro, execute a ação.",
+        "engineerPlacement": "O Automa deve colocar o número de Engenheiros indicado pelo Aplicativo nos espaços de ação de Oficina e pagar o número de Pontos de Vitória indicado. Como de costume, o Automa deve imediatamente recuperar quaisquer Maquinários e/ou fichas de Tecnologia que retornem ao segmento de entrada após cada rotação individual."
+      },
+      "machinery-shop": {
+        "intro": "O Automa paga o número indicado de PV para pegar a quantidade indicada de Maquinários.",
+        "engineerPlacement": "Coloque o número indicado de Engenheiros no primeiro espaço de ação disponível da Loja de Maquinário e pague o número de Pontos de Vitória indicado na ficha de Ação para pegar os Maquinários indicados na ficha de Ação."
+      },
+      "patent-office": {
+        "intro": "O Automa pagará 2 Pontos de Vitória para pegar a ficha de Tecnologia Avançada indicada, se disponível no Escritório de Patentes (ou uma ficha de Tecnologia Avançada coringa, se disponível).",
+        "engineerPlacement": "O Automa coloca 1 Engenheiro no espaço de ação do Escritório de Patentes e paga 2 Pontos de Vitória em vez de 2 Engenheiros e 5 PV.",
+        "multipleTiles": "Caso duas fichas para a mesma estrutura estejam disponíveis, o Automa pegará a ficha de nível mais alto.",
+        "noneAvailable": "Se nem a ficha de Tecnologia indicada nem uma ficha de Tecnologia coringa estiverem disponíveis, o Automa não executará esta ação."
+      },
+      "external-work": {
+        "intro": "O Automa cumprirá uma Obra Externa disponível.",
+        "enoughMachineries": "Verifique se o Automa tem Maquinários suficientes para completar pelo menos uma Obra Externa disponível. Se puder cumprir mais de uma Obra Externa, o Automa escolherá qual cumprir de acordo com a ordem de preferência indicada: o número se refere à posição das fichas no Tabuleiro de Gestão.",
+        "engineerPlacement": "O Automa coloca o número indicado de Engenheiros no espaço de ação correspondente e descarta o número exigido de Maquinários.",
+        "particularEffect": "<b>Efeito específico:</b> se o Automa tiver que cumprir um Contrato como efeito de uma Obra Externa, ele deve cumprir o Contrato Privado de maior valor disponível no Departamento de Contratos <i>(em caso de empate, o da direita; se o efeito for um Contrato de valor 4, o maior entre aqueles de valor 4 ou menos)</i>."
+      },
+      "bank": {
+        "intro": "O Automa marca 1 Ponto de Vitória, colocando 1 Engenheiro no Banco."
+      }
+    },
+    "structurePlacement": {
+      "intro": "Verifique estes critérios um após o outro para encontrar o espaço de construção:",
+      "thirdStructure": "<b>Terceira estrutura de um sistema</b>: Primeiro, se existir um único sistema potencial <i>(ou seja, um conjunto que inclui uma Represa - neutra ou própria - um Conduíte e uma Usina de Energia própria)</i> que seria completado ao colocar a estrutura, a posição que completa esse sistema será escolhida.",
+      "location": "Local <b>{location}</b> ou número superior.",
+      "locationDescription": "Comece desta posição e prossiga seguindo a ordem das bacias até o primeiro espaço elegível. Se você chegar ao fim das posições, comece novamente sua verificação a partir da primeira posição e prossiga até o primeiro espaço elegível. Ao procurar mais espaços de construção para condutos, verifique primeiro o espaço da esquerda (A), depois o espaço da direita (B).",
+      "locationRestriction": "Algumas ações indicam uma restrição específica para a estrutura a ser construída (ex.: uma Base de Represa nas Montanhas): essa restrição se aplica a qualquer critério de desempate abaixo.",
+      "fivePlayerMap": "<b>Mapa para 5 Jogadores</b>: Mesmo que as bacias mais à direita não tenham um número de referência, você deve incluí-las na lista de verificação.",
+      "conduit": {
+        "most-powerful": "O Conduíte mais poderoso entre as elegíveis.",
+        "opponent-neutral-owned-dam": "Um Conduíte ligado a uma Represa do oponente / neutra / própria.<br/><b>Desempate: oponente, neutra, própria.</b>",
+        "opponent-owned-powerhouse": "Conduíte ligado a uma Usina de Energia do oponente / própria.<br/><b>Desempate: oponente, própria.</b>",
+        "owned-neutral-opponent-dam": "Um Conduíte ligado a uma Represa própria / neutra / do oponente.<br/><b>Desempate: própria, neutra, oponente.</b>",
+        "owned-opponent-powerhouse": "Um Conduíte ligado a uma Usina de Energia própria / do oponente.<br/><b>Desempate: própria, oponente.</b>",
+        "second-most-powerful": "O segundo Conduíte mais poderoso entre as elegíveis, se houver <b>CASO CONTRÁRIO</b> o mais poderoso."
+      },
+      "damElevation": {
+        "downstream-dam": "Represa ligada (por uma ligação de Conduíte) a uma bacia a jusante com uma Represa própria <b>CASO CONTRÁRIO</b> uma Represa não ligada (por uma ligação de Conduíte) a uma bacia a jusante com uma Represa de um oponente.",
+        "most-powerful-conduit": "Uma Represa ligada ao Conduíte mais poderoso já construído (próprio ou do oponente).<br/><b>Desempate: Conduíte próprio.</b>",
+        "most-water-drops": "Uma Represa capaz de receber mais Gotas d'Água na condição atual do Mapa.<br/><b>Desempate: </b>",
+        "owned-powerhouse": "Uma Represa ligada a uma Usina de Energia própria.",
+        "red-outline-space": "Um espaço de construção de Represa com contorno vermelho entre os elegíveis.",
+        "tiebreakerReadLinedSpace": "Se houver empate entre um espaço de construção livre e um espaço com contorno vermelho, o Automa escolhe o espaço de construção livre.",
+        "upstream-powerhouse": "Uma Represa ligada (através de bacias sem outras Represas) a uma Usina de Energia a montante."
+      },
+      "powerhouse": {
+        "feeding-owned-dam": "Uma Usina de Energia alimentando uma Represa própria (através de bacias sem outras Represas) <b>CASO CONTRÁRIO</b> uma Usina de Energia que não alimenta diretamente (pelos rios) uma Represa de um oponente.",
+        "hills-basin-5": "Usina de Energia na bacia das Colinas <b>5</b> (veja o Mapa).",
+        "hills-basin-6": "Usina de Energia na bacia das Colinas <b>5</b> (veja o Mapa).",
+        "hills-basin-7": "Usina de Energia na bacia das Colinas <b>7</b> (veja o Mapa).",
+        "most-powerful-conduit": "Uma Usina de Energia ligada ao Conduíte mais poderoso já construído (próprio ou do oponente).<br/><b>Desempate: Conduíte próprio.</b>",
+        "not-feeding-opponent-dam": "Uma Usina de Energia que não alimenta diretamente (pelos rios) uma Represa de um oponente <b>CASO CONTRÁRIO</b> uma Usina de Energia que alimenta diretamente uma Represa própria (pelos rios sem outras Represas).",
+        "owned-dam": "Uma Usina de Energia ligada a uma Represa própria.",
+        "plains": "Uma Usina de Energia nas Planícies."
+      }
+    },
+    "headwater": {
+      "title": "Nascente"
+    }
+  },
+  "notfound": {
+    "title": "Não Encontrado"
+  },
+  "action": {
+    "playGame": "Jogar",
+    "startGame": "Iniciar Partida",
+    "next": "Próximo",
+    "nextRound": "Próxima Rodada",
+    "abortGame": "Abortar Partida",
+    "abortGameConfirm": "Abortando a partida em andamento - tem certeza?",
+    "endGame": "Encerrar Jogo",
+    "endGameConfirm": "Encerrar esta partida e voltar para a tela inicial - tem certeza?",
+    "cancel": "Cancelar",
+    "backToHome": "Voltar para o Início",
+    "back": "Voltar",
+    "close": "Fechar",
+    "ok": "OK",
+    "pass": "Passar"
+  },
+  "footer": {
+    "credits": "Créditos"
+  },
+  "serviceWorkerUpdatedRefresh": {
+    "title": "Atualizar Aplicativo",
+    "notice": "O aplicativo foi atualizado - deseja recarregar para usar a versão mais recente?"
+  }
+}
