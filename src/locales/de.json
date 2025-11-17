@@ -24,6 +24,11 @@
       "botCountItem": "{count} Automa | {count} Automas",
       "botColor": "Automa-Farbe | Automa {index} Farbe"
     },
+    "automationMode": {
+      "title": "Automatisierung",
+      "fullAutomationLabel": "Vollständige Automatisierung (BETA)",
+      "fullAutomationHelp": "Aktiviere dies, damit die App die Automa-Aktionen anhand der von dir angegebenen Spielbrett-Änderungen auswählt. Deaktiviert lassen, um weiterhin die Karten manuell zu ziehen."
+    },
     "difficultyLevel": {
       "title": "Schwierigkeitsgrad",
       "easy": "Leicht",

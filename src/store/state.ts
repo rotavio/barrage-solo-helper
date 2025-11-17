@@ -14,6 +14,7 @@ export const useStateStore = defineStore(`${name}.state`, {
       baseFontSize: 1,
       setup: {
         expansions: [],
+        fullAutomationMode: false,
         playerSetup: {
           playerCount: 1,
           botCount: 1,
@@ -61,8 +62,9 @@ export interface State {
 }
 export interface Setup {
   expansions: Expansion[]
+  fullAutomationMode?: boolean
   playerSetup: PlayerSetup
-  difficultyLevels: DifficultyLevel[] 
+  difficultyLevels: DifficultyLevel[]
   botCorporations: Corporation[]
   botExecutiveOfficers: ExecutiveOfficer[]
   initialCardDeck?: CardDeckPersistence

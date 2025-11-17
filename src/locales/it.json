@@ -24,6 +24,11 @@
       "botCountItem": "{count} Automa | {count} Automi",
       "botColor": "Colore Automa | Colore Automa {index}"
     },
+    "automationMode": {
+      "title": "Automazione",
+      "fullAutomationLabel": "Automazione completa (BETA)",
+      "fullAutomationHelp": "Attivalo per lasciare che l'app scelga le azioni dell'Automa in base alle modifiche inserite sul tabellone. Lascialo disattivato per continuare a pescare carte manualmente."
+    },
     "difficultyLevel": {
       "title": "Livello di Difficoltà",
       "easy": "Facile",
