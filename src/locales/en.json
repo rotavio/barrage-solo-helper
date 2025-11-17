@@ -24,6 +24,11 @@
       "botCountItem": "{count} Automa | {count} Automas",
       "botColor": "Automa Color | Automa {index} Color"
     },
+    "automationMode": {
+      "title": "Automation",
+      "fullAutomationLabel": "Full Automation (BETA)",
+      "fullAutomationHelp": "Let the app choose Automa actions based on board updates you provide. Leave disabled to keep drawing cards manually."
+    },
     "difficultyLevel": {
       "title": "Difficulty Level",
       "easy": "Easy",

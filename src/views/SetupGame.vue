@@ -2,6 +2,7 @@
   <h1>{{t('setup.title')}}</h1>
 
   <ExpansionsSetup/>
+  <AutomationMode/>
   <PlayersSetup/>
   <DifficultyLevel/>
 
@@ -18,6 +19,7 @@ import { useI18n } from 'vue-i18n'
 import { useStateStore } from '@/store/state'
 import FooterButtons from '@/components/structure/FooterButtons.vue'
 import DifficultyLevel from '@/components/setup/DifficultyLevel.vue'
+import AutomationMode from '@/components/setup/AutomationMode.vue'
 import ExpansionsSetup from '@/components/setup/ExpansionsSetup.vue'
 import PlayersSetup from '@/components/setup/PlayersSetup.vue'
 
@@ -25,6 +27,7 @@ export default defineComponent({
   name: 'SetupGame',
   components: {
     FooterButtons,
+    AutomationMode,
     ExpansionsSetup,
     PlayersSetup,
     DifficultyLevel
