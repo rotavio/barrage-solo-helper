@@ -7,7 +7,7 @@ Tabela de referência para manter a tradução consistente com os manuais em ing
 | Basin | Bacia | Usado para identificar a numeração das bacias no mapa. |
 | Dam Base | Base de Barragem | Parte inferior da barragem. |
 | Elevation | Elevação | Extensão construída sobre uma barragem existente. |
-| Conduit | Conduta | Canal que leva a água da barragem até a usina. |
+| Conduit | Conduto | Canal que leva a água da barragem até a usina. |
 | Powerhouse | Usina | Estrutura que gera Energia. |
 | Headstream | Nascente | Azulejos onde as Gotas d'Água entram no mapa. |
 | Water Drop | Gota d'Água | Unidade de água que flui entre as bacias. |
