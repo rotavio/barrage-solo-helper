@@ -5,10 +5,11 @@ Tabela de referência para manter a tradução consistente com os manuais em ing
 | Inglês | Tradução PT-BR | Observações |
 | --- | --- | --- |
 | Basin | Bacia | Usado para identificar a numeração das bacias no mapa. |
-| Dam Base | Base de Barragem | Parte inferior da barragem. |
+| Dam Base | Base de Represa | Parte inferior da represa. |
 | Elevation | Elevação | Extensão construída sobre uma barragem existente. |
-| Conduit | Conduto | Canal que leva a água da barragem até a usina. |
-| Powerhouse | Usina | Estrutura que gera Energia. |
+| Conduit | Conduíte | Canal que leva a água da represa até a usina de energia. |
+| Dam | Represa | Estrutura que retém água nas bacias. |
+| Powerhouse | Usina de Energia | Estrutura que gera Energia. |
 | Headstream | Nascente | Azulejos onde as Gotas d'Água entram no mapa. |
 | Water Drop | Gota d'Água | Unidade de água que flui entre as bacias. |
 | Energy Track | Trilha de Energia | Trilha de pontuação temporária por rodada. |
